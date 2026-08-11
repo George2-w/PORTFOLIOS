@@ -1,0 +1,21 @@
+################################################################################
+# Use node image for base image for all stages.
+FROM node:20.19.0-alpine AS base
+
+# Set working directory for all build stages.
+WORKDIR /app
+
+# Copy lockfiles
+COPY package*.json ./
+RUN npm install
+COPY . .
+RUN npm run build
+# Stage 2: Serve the app with Nginx
+
+FROM nginx:alpine
+COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
+# Copy the build output from the first stage to Nginx
+COPY --from=base /app/dist/ /usr/share/nginx/html/
+CMD nginx -g "daemon off;"
+# EXPOSE the internal port NPM will look for
+EXPOSE 8080
