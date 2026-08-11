@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://George2-w.github.io/Portfolio/",
+  "homepage": "https://George2-w.github.io/PORTFOLIOS/",
   "scripts": {
     "app": "vite",
     "clean": "rm -rf dist",
