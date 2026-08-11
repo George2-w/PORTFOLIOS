@@ -6,7 +6,7 @@ function App() {
 
   return (
     <> 
-    <BrowserRouter basename="/PORTFOLIOS/">
+    <BrowserRouter >
     <Routes>
       <Route index element={<Home/>}/> 
     </Routes>
