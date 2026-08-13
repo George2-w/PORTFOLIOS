@@ -93,7 +93,7 @@ const Iconcard = () => {
 
       <section className='TextInfosect'>
         <div className='textDiv absolute top-30 left-8 text-4xl mb-5'>
-          <p >  Dealing with data and its state keeps a website's application lifecycle running smoothly. Minimizing mistakes that may arise as a result of incorrect data and state management builds organization.The tools spanned to the right are used to ensure your business data are handled properly.</p>
+          <p >  Dealing with data and its state keeps website's application lifecycle running smoothly. Minimizing mistakes that may arise as a result of incorrect data and state management builds organization.The tools spanned to the right are used to ensure your business data are handled properly.</p>
         </div>
         <div className='textDiv absolute top-160 left-8 text-4xl'>
           <p>Building a webpage to match the modern aesthetic view of a new-age website is the goal. Making use of frameworks like React as a construction tool, incorporation of affordances and signifier elements to enhance user interface experience.</p>
