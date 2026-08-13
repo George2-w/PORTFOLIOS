@@ -14,7 +14,7 @@ export default function Form() {
   const getdata = async (e) => {
     e.preventDefault();
     console.log(form);
-    const res = await fetch('http://localhost:9380/api/form', {
+    const res = await fetch('http://localhost:6875/api/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
