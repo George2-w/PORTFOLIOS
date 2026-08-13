@@ -23,7 +23,7 @@ const Work = () => {
 
        </div>
        <div className='content'>
-          <div className=' Left-content-sect meta mt-110 gap-20'>
+          <div className=' Left-content-sect meta mt-80 gap-20'>
              <h3 className='title'>Build a Brand That Converts. Digitally Perfected</h3>
             <p>build responsive, high-conversion brands using the latest React framework to ensure your first impression is a lasting one. Let’s turn your vision into a high-quality digital experience. Click below to learn more. <a href=""><img src={cArrow} alt="" /></a></p>
 
@@ -48,7 +48,7 @@ const Work = () => {
              
             </div>
         <div className='content'>
-             <div className=' Right-content-sect meta mt-110 gap-20'>
+             <div className=' Right-content-sect meta mt-80 gap-20'>
             <h3> Your Private wine Cellar, Digitally Perfected</h3>
             <p className='desc'>The ultimate digital liquor cabinet. We’ve stripped away the noise to provide a clean, Tailwind-styled interface that focuses on what matters: premium quality and effortless ordering. Your favorite labels are just a tap away.  Click below to learn more. <a href=""><img src={cArrow} alt="" /></a></p>
        </div>

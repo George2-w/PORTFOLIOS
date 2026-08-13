@@ -93,13 +93,13 @@ const Iconcard = () => {
 
       <section className='TextInfosect'>
         <div className='textDiv absolute top-30 left-8 text-4xl mb-5'>
-          <p >  Dealing with data and its state is critical to keeping a website's application lifecycle running smoothly and minimizing mistakes that may arise as a result of incorrect data and state management. Here are the tools I use to ensure that your data is handled properly.</p>
+          <p >  Dealing with data and its state keeps a website's application lifecycle running smoothly. Minimizing mistakes that may arise as a result of incorrect data and state management builds organization.The tools spanned to the right are used to ensure your business data are handled properly.</p>
         </div>
         <div className='textDiv absolute top-160 left-8 text-4xl'>
-          <p>Designing a webpage to match the modern aesthetic view of a new-age website requires a significant amount of effort, tools, and foundation. I've learned how to use frontend design frameworks like React and Tailwind, as well as 3D environment construction tools like Blender and Three. JS, GSAP, and Figma for 2D animation and prototyping, among other things. This enables a wonderful user experience and the incorporation of affordances and signifier elements to enhance branding.</p>
+          <p>Building a webpage to match the modern aesthetic view of a new-age website is the goal. Making use of frameworks like React as a construction tool, incorporation of affordances and signifier elements to enhance user interface experience.</p>
         </div>
         <div className='textDiv absolute top-350 left-8 text-4xl'>
-          <p>The foundational programming languages I use to create a completely functional website are HTML, CSS, and JavaScript. HTML is used to construct the website's structural elements, CSS is used to design it, and JavaScript is used to add functionality.</p>
+          <p>Also specialized in using foundational programming languages like HTML, CSS, and JavaScript.</p>
         </div>
 
       </section>
